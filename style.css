@@ -52,6 +52,11 @@ section{
     background-color: #469165;
     border-radius: 10px;
     font-weight: 700;
+    border: none;
+}
+.herobtn1:hover{
+    color: #469165;
+    background-color: white;
 }
 .herobtn2{
        padding: 10px 15px;
@@ -60,4 +65,8 @@ section{
     font-weight: 700; 
     border-color: white;
     color: white;
+}
+.herobtn2:hover{
+    color: black;
+    background-color: white;
 }
