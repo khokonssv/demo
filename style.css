@@ -96,3 +96,30 @@ gap: 30px;
     border-radius: 999px;
     margin-top: 50px;
 }
+.brain{
+    display: flex;
+    height: 500px;
+    max-width: 1140px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 40px;
+}
+.brain image{
+    height: 200px;
+    width: 200px;
+}
+.brain-content h6{
+    text-transform: uppercase;
+    color: rgb(202, 201, 200);
+    margin-bottom: 20px;
+}
+.brain-content h3{
+    font-size:30px ;
+    font-weight: 700px;
+}
+.brain-content  p{
+    margin-top: 20px;
+    font-size: 16px;
+}
