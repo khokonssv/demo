@@ -70,3 +70,29 @@ section{
     color: black;
     background-color: white;
 }
+.second-sec{
+    text-align: center;
+}
+.card{
+    background-color: aliceblue;
+    height: 200px;
+    align-items: center;
+    width: 300px;
+    padding: 10px 15px;
+}
+.cards{
+    display: flex;
+justify-content: space-around;
+height: 500px;
+width: 80%;
+margin: 0 auto;
+padding: 50px 0;
+gap: 30px;
+
+}
+.cards img{
+    background-color: brown;
+    padding: 10px;
+    border-radius: 999px;
+    margin-top: 50px;
+}
