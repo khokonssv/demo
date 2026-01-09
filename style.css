@@ -105,6 +105,7 @@ gap: 30px;
     align-items: center;
     margin: 0 auto;
     gap: 40px;
+    padding-bottom: 100px;
 }
 .brain image{
     height: 200px;
@@ -125,4 +126,49 @@ gap: 30px;
 }
 .brain-content ul{
     list-style: none;
+    margin-top: 20px;
+}
+.challange-section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.challange-card {
+  background: #f7f5f1;
+  border-radius: 16px;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.challange-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+
+.challange-subtitle {
+  font-size: 16px;
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.challange-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #4b8f6b;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.challange-note {
+  margin-top: 24px;
+  font-size: 14px;
+  color: #64748b;
 }
