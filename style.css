@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    * {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
-.font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
 }
+
 section{
     height: 500px;
     width: 100%;
@@ -171,4 +171,132 @@ gap: 30px;
   margin-top: 24px;
   font-size: 14px;
   color: #64748b;
+}
+.footer-section {
+  background: linear-gradient(180deg, #031c34, #021427);
+  padding: 40px 80px 24px;
+  color: #ffffff;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-logo span {
+  color: #7ccf9a;
+}
+
+.footer-tagline {
+  font-size: 12px;
+  color: #9fb3c8;
+  margin-left: 36px;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social-title {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.footer-icons a {
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  color: #031c34;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-line {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 32px 0 16px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #d1dbe6;
+}
+.nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.nav-logo-text {
+  color: #4b8f6b;
+}
+
+.nav-tagline {
+  font-size: 12px;
+  color: #64748b;
+  margin-left: 36px;
+}
+
+.nav-center {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: #0f172a;
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.nav-button {
+  background: #4b8f6b;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
 }
