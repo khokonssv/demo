@@ -123,3 +123,6 @@ gap: 30px;
     margin-top: 20px;
     font-size: 16px;
 }
+.brain-content ul{
+    list-style: none;
+}
